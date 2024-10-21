@@ -14,6 +14,7 @@ Notebooks for these activities are supported by a containerized environment; the
    ```
    docker container run -p 8888:8888 -v $(pwd):/books --name ecco argovis/ecco:241014
    ```
+   **Note for Windows users**: substitute $(pwd) with the actual whole path in the command just above.
 5. Wait a few seconds, and there will be a URL in your terminal output that starts with ` http://127.0.0.1:8888/tree?token=...`. Copy and paste that whole thing into your favorite web browser to access your notebooks. Leave this terminal window running while you work with your notebooks.
 6. When finished, in a new terminal window, kill off your container:
    ```
